@@ -10,8 +10,7 @@
     <!-- Sidebar -->
     <div class="w-64 bg-white h-screen shadow-md">
         <div class="flex items-center justify-center h-16 border-b">
-            <img alt="Logo" class="rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/oaXxxv5cMUtv62M4ENoB_LhrLlb-gQFiedX5akhkNi4.jpg" width="40"/>
-            <span class="ml-2 text-xl font-bold">EmerCode</span>
+            <img alt="Logo" class="rounded-full" height="20" src="image/logo.png"/>
         </div>
         <nav class="mt-10">
             <a class="flex items-center py-2 px-8 bg-gradient-to-r from-green-400 to-blue-500 text-white" href="#">

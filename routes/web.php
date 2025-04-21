@@ -14,7 +14,14 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
+Route::get('/dashboardadmin', function () {
+    return view('dashboardadmin');
+})->name('dashboardadmin');
 
+Route::get('/dashboardparamedic', function () {
+    return view('dashboardparamedic');
+})->name('dashboardparamedic');
+
+Route::get('/', function () {
+    return view('chooseuser');
+});
