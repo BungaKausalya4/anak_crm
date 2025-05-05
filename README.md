@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 Penjelasan Alur Navigasi Aplikasi (Flow Route)
 1. Login & Dashboard
