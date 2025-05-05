@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Customer extends Model
 {
-    protected $table = 'customers'; // jika nama tabel memang "customers"
+    protected $table = 'customers'; 
 }

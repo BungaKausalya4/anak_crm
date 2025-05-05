@@ -17,7 +17,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Proses Lead Menjadi Proyek</h1>
+        <h1>Proses Calon Customer</h1>
 
         <div class="lead-info">
             <p><strong>Nama:</strong> {{ $lead->name }}</p>
@@ -63,7 +63,7 @@
                 document.getElementById('loadingMessage').textContent = "✅ Telah Disetujui oleh Manager!";
     
                 setTimeout(() => {
-                    this.submit(); // Jangan ada error sebelum ini!
+                    this.submit(); 
                 }, 1000);
             }, 3000);
         });

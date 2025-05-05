@@ -15,7 +15,7 @@ class Product extends Model
         'description',
     ];
 
-    // Relasi dengan Project (satu produk bisa memiliki banyak proyek)
+
     public function projects()
     {
         return $this->hasMany(Project::class);

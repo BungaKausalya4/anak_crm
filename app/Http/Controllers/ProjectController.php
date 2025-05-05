@@ -10,13 +10,12 @@ use App\Models\Product;
 
 class ProjectController extends Controller
 {
-    // Menampilkan halaman proses
     public function process($id)
 {
     $lead = Lead::findOrFail($id);
-    $products = Product::all(); // Ambil semua produk dari database
+    $products = Product::all(); 
 
-    // Mengirimkan variabel $lead dan $products ke view
+ 
     return view('projects.process', compact('lead', 'products'));
 }
 

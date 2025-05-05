@@ -20,13 +20,9 @@
         <tbody>
             @forelse ($projects as $project)
                 <tr>
-                    <!-- Tampilkan nama produk yang dipilih untuk proyek -->
                     <td>{{ $project->product->name ?? 'Layanan Tidak Ditemukan' }}</td> 
-                    <!-- Tampilkan nama lead terkait dengan proyek -->
                     <td>{{ $project->lead->name ?? 'Tidak diketahui' }}</td>
-                    <!-- Tampilkan email lead -->
                     <td>{{ $project->lead->email ?? 'Tidak diketahui' }}</td>
-                    <!-- Tampilkan nomor HP lead -->
                     <td>{{ $project->lead->phone ?? 'Tidak diketahui' }}</td>
                     <td>
                         <form action="{{ route('projects.destroy', $project->id) }}" method="POST" onsubmit="return confirm('Yakin ingin menghapus proyek ini?')">

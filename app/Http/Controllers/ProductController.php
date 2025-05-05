@@ -7,20 +7,17 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    // Menampilkan daftar produk
     public function index()
     {
         $products = Product::all();
         return view('products.index', compact('products'));
     }
 
-    // Menampilkan halaman tambah produk
     public function create()
     {
         return view('products.create');
     }
 
-    // Menyimpan data produk
     public function store(Request $request)
     {
         $validatedData = $request->validate([
@@ -38,14 +35,12 @@ class ProductController extends Controller
         return redirect()->route('products.index')->with('success', 'Produk berhasil ditambahkan.');
     }
 
-    // Menampilkan form untuk mengedit produk
     public function edit($id)
     {
         $product = Product::findOrFail($id);
         return view('products.edit', compact('product'));
     }
 
-    // Mengupdate produk setelah diedit
     public function update(Request $request, $id)
     {
         $validatedData = $request->validate([

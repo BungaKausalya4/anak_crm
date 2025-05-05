@@ -10,14 +10,12 @@
     <div class="container">
         <h1>Daftar Calon Customer</h1>
 
-        <!-- Penjelasan & Aksi -->
         <div class="actions">
            
             <a href="{{ route('leads.create') }}" class="btn btn-add">➕ Tambah Lead Baru</a>
 
         </div>
 
-        <!-- Tabel Lead -->
         <table class="lead-table">
             <thead>
                 <tr>
