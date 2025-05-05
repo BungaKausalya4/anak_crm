@@ -24,20 +24,18 @@
     <i class="fas fa-eye absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-400 cursor-pointer" onclick="togglePassword('password', this)"></i>
 </div>
 
-                
 <a href="{{ route('dashboard') }}">
-    <button class="w-full bg-blue-500 text-white p-3 rounded-lg font-semibold hover:bg-blue-600">Sign In</button>
+    <button type="button" class="w-full bg-blue-500 text-white p-3 rounded-lg font-semibold hover:bg-blue-600">
+        Sign In
+    </button>
 </a>
+
 
             </form>
         </div>
         <div class="bg-blue-500 text-white p-8 md:w-1/2 rounded-b-lg md:rounded-r-lg md:rounded-bl-none flex flex-col items-center justify-center">
             <h2 class="text-2xl font-bold mb-2">Welcome Back!</h2>
-            <p class="mb-6">Don't have an account?</p>
-            <a href="{{ url('register') }}">
-                <button class="bg-white text-blue-500 p-3 rounded-lg font-semibold hover:bg-gray-100">
-                    Sign Up
-                </button>
+            
             </a>
         </div>
     </div>

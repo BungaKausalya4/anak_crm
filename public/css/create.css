@@ -1,0 +1,72 @@
+/* Container keseluruhan */
+.products-container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+/* Card utama */
+.products-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+}
+
+/* Judul halaman */
+.products-title {
+    font-size: 28px;
+    color: #1e3a8a; /* biru gelap */
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* Form */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #374151;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    background-color: #f9fafb;
+    font-size: 16px;
+    color: #111827;
+    transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #3b82f6;
+    outline: none;
+    background-color: #fff;
+}
+
+/* Tombol Simpan */
+.btn-add-product {
+    background-color: #3b82f6;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn-add-product:hover {
+    background-color: #2563eb;
+}

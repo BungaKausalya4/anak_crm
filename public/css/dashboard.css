@@ -1,0 +1,86 @@
+/* dashboard.css */
+
+/* Container utama */
+.dashboard-container {
+    max-width: 1200px;
+    margin: 2.5rem auto;
+    padding: 1.5rem;
+}
+
+/* Kartu luar */
+.dashboard-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Judul dan teks pembuka */
+.dashboard-title {
+    font-size: 2.25rem;
+    color: #1d4ed8;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.dashboard-welcome {
+    font-size: 1.125rem;
+    color: #374151;
+}
+
+.dashboard-highlight {
+    font-weight: 600;
+    color: #1e40af;
+}
+
+/* Grid container untuk cards */
+.dashboard-grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Card individual */
+.card {
+    background-color: #f9fafb;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-decoration: none;
+    display: block;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+/* Judul dan paragraf dalam card */
+.card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #111827;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #4b5563;
+}
+
+/* Warna-warna spesifik */
+.card-blue {
+    background-color: #dbeafe;
+    border-left: 6px solid #3b82f6;
+}
+
+.card-green {
+    background-color: #d1fae5;
+    border-left: 6px solid #10b981;
+}
+
+.card-yellow {
+    background-color: #fef3c7;
+    border-left: 6px solid #facc15;
+}
