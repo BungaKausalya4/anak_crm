@@ -1,3 +1,4 @@
+Gambar: https://drive.google.com/file/d/1jMU6HJdqEBr9D3mLeJYAjmNj9XAMBVDu/view?usp=sharing
 
 Penjelasan Alur Navigasi Aplikasi (Flow Route)
 1. Login & Dashboard
