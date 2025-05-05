@@ -1,5 +1,5 @@
 Gambar: https://drive.google.com/file/d/1jMU6HJdqEBr9D3mLeJYAjmNj9XAMBVDu/view?usp=sharing
-
+File PDF: https://drive.google.com/file/d/1Cb5m56zDkfJ2lnySPCIAouibTAwzXMf9/view?usp=sharing
 Penjelasan Alur Navigasi Aplikasi (Flow Route)
 1. Login & Dashboard
 - User dari Divisi Sales membuka aplikasi dan masuk ke halaman login.
