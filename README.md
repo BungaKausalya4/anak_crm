@@ -14,7 +14,7 @@ Penjelasan Alur Navigasi Aplikasi (Flow Route)
 2. Leads – Kelola Calon Customer Potensial
 - Saat user memilih menu Leads, user diarahkan ke halaman daftar calon customer yang ditampilkan dalam bentuk tabel.
 - Tabel berisi data: Nama, Email, No. HP, Status, dan Aksi (Proses, Edit, Hapus).
-- Tersedia tombol ➕ Tambah Lead Baru yang akan menavigasi ke formulir input lead berisi:
+- Tersedia tombol Tambah Lead Baru yang akan menavigasi ke formulir input lead berisi:
   1. Nama
   2. Email
   3. No. HP
@@ -39,6 +39,6 @@ Penjelasan Alur Navigasi Aplikasi (Flow Route)
 4. Customers – Data Pelanggan yang Sudah Berlangganan
 - Menu Customers menampilkan halaman Daftar Customer (Proyek Disetujui).
 - Halaman ini berisi tabel pelanggan yang sudah diproses dan disetujui, dengan kolom:
-  -> Layanan, Nama, Email, No. HP, dan Aksi (🗑 Hapus)
+  -> Layanan, Nama, Email, No. HP, dan Aksi (Hapus)
 - Data ini berasal dari proses pada fitur Leads → Proses → Submit.
 
